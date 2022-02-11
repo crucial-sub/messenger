@@ -1,6 +1,13 @@
+import React, { Fragment, useRef } from 'react';
+import { useSelector } from 'react-redux';
+
 import Messages from 'components/Messages';
+import Modal from 'components/Modal';
 import NewMessage from 'components/NewMessage/NewMessage';
-import React, { useRef } from 'react';
+
+import arrowDown from 'assets/arrow-down.png';
+import star from 'assets/star-btn.png';
+
 import styled from 'styled-components';
 import Modal from 'components/Modal';
 import { useDispatch, useSelector } from 'react-redux';
@@ -9,7 +16,6 @@ import arrowDown from 'assets/arrow-down.png';
 import { FaChevronDown, FaCaretDown, FaCaretRight } from 'react-icons/fa';
 import { FiPlusCircle } from 'react-icons/fi';
 import { MdManageSearch } from 'react-icons/md';
-
 const Main = () => {
     const MsgBoxRef = useRef();
     const modal = useSelector((state) => state.modal);
@@ -18,7 +24,7 @@ const Main = () => {
     return (
         <MainContainer>
             <Header>
-                <span>C</span>
+                <Logo>C</Logo>
                 <span>console.lo9</span>
                 <FaChevronDown />
             </Header>
@@ -103,6 +109,9 @@ const Header = styled.div`
     span {
         font-weight: 700;
     }
+    span {
+        font-weight: 700;
+    }
 `;
 
 const SectionRightWrapper = styled.div`
@@ -158,7 +167,7 @@ const MainWrapper = styled.div`
     align-items: flex-start;
     width: 100%;
     height: auto;
-    flex: 1 0 85%;
+    flex: 85;
     position: relative;
     background-color: #f8f8f8;
 
@@ -182,6 +191,14 @@ const ChannelHeader = styled.div`
     background-color: #fff;
     font-weight: 700;
     font-size: 16px;
+    `
+const Logo = styled.span`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    width: 20px;
+    height: 20px;
 `;
 
 const SummaryBtn = styled.button`
@@ -214,7 +231,6 @@ const SideMenuWrapper = styled.div`
     padding: 0 4px;
     box-sizing: border-box;
     background: #fff;
-    z-index: 99;
 
     span {
         font-weight: 700;
