@@ -1,90 +1,20 @@
-<h1 align="center"> 메신저 과제 </h1>
+<h1 align="center"> 메신저 웹 페이지 </h1>
 
 <h3 align="center"> 서비스 링크: https://console-lo9-messenger.herokuapp.com</h3>
 
-<p align="center"><img width="800" src="https://user-images.githubusercontent.com/93258739/153689576-dd79fe3d-2f67-4657-848e-937f8c231880.jpg" /></p>
+<p align="center"><img width="1439" alt="메신저 대표 이미지" src="https://user-images.githubusercontent.com/87363422/180967645-d5d104f1-bf41-443d-a1d8-fbd2e0a4fbde.png"></p>
 
 # 👏 프로젝트 소개
 
 > json-server 로 만든 가상의 서버에서 대화 목록을 가져와 대화 목록을 화면에 출력한 후
 > 대화에 참여한 사용자가 메시지를 전송할 수 있도록 하는 페이지 제작.
 
-<br/><br/>
-
-## 🙋‍♀️🙋‍♂️ 팀원
+## 🚀 스택
 
 <br/>
 
-<table>
-<thead>
-<tr>
-<th>프로필</th>
-<th>이름</th>
-<th>Github</th>
-<th>담당 기능</th>
-</tr>
-</thead>
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=black"> <img src="https://img.shields.io/badge/styled-compontents-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
 
-<tbody>
-<tr>
-<td>
-<a href="https://github.com/Ubermensch0608"
-><img
-src="https://avatars.githubusercontent.com/Ubermensch0608"
-width="100px;"
-alt=""
-/></a>
-</td>
-<td><b>우종원</b></sub></td>
-<td align="center"><a href="https://github.com/Ubermensch0608" >Ubermensch0608</a></td>
-<td>메시지 데이터 동적 관리, 메시지 입력 기능, 전역상태 관리</td>
-</tr>
-
-<tr>
-<td>
-<a href="https://github.com/crucial-sub"
-><img
-src="https://avatars.githubusercontent.com/crucial-sub"
-width="100px;"
-alt=""
-/></a>
-</td>
-<td><b>박중섭</b></td>
-  <td align="center"><a href="https://github.com/crucial-sub" >crucial-sub</a></td>
-<td>메시지 삭제 기능, 메인 페이지 해더 및 좌측네브바</td>
-</tr>
-
-<tr>
-<td>
-<a href="https://github.com/ttaerrim"
-><img
-src="https://avatars.githubusercontent.com/ttaerrim"
-width="100px;"
-alt=""
-/></a
-></td>
-<td align="center"><b>이태림</b></td>
-  <td align="center"><a href="https://github.com/ttaerrim" >ttaerrim</a></td>
-<td>메시지 답장 기능, 전역 상태 관리</td>
-</tr>
-
-<tr>
-<td align="center">
-<a href="https://github.com/penguin311"
-><img
-src="https://avatars.githubusercontent.com/penguin311"
-width="100px;"
-alt=""
-/><br /></a
-></td>
-<td><b>임수영</b></td>
-<td align="center"><a href="https://github.com/penguin311" >penguin311</a></td>
-<td>로그인&아웃, 유저 모델, 메인 페이지 스타일링</td>
-</tr>
-</tbody>
-</table>
-
-<br/><br/>
 
 ## ⚙ 설치
 
@@ -163,6 +93,9 @@ $ npm run start:dev || yarn start:dev
 
 ## ✨ 구현 사항
 
+> **`맡은 역할`** <br>
+> 메시지 삭제 기능 구현, 메시지 입력 관련 기능 구현, 헤더 및 사이드Nav, 메인페이지 UI 최적화
+
 -   [x] 입력창
     -   [x] 엔터 키로 전송 가능
     -   [x] 컨텐츠 입력 시 전송 버튼 즉시 활성화
@@ -191,52 +124,10 @@ $ npm run start:dev || yarn start:dev
 
 ## 🗺 한 눈으로 보는 구현 기능
 
-1. 로그인 및 사용자 인식 기능
+1. 메시지 삭제 기능 구현
 
- <img src='https://user-images.githubusercontent.com/93258739/153690714-76369c95-2cd7-481a-9389-a3e0f5f3b674.gif' alt="gif" />
+ <img src='https://user-images.githubusercontent.com/87363422/180969251-3a0d935e-96d0-4740-a0eb-cc0b184414b1.gif' alt="gif" />
 
-2. 메시지 답장 기능
+2. 메시지 입력 관련 기능 구현
 
- <img src='https://user-images.githubusercontent.com/93258739/153690928-27c0cc72-14f5-41ee-9dd6-217544ceabb0.gif' alt="gif" />
-
-3. 메시지 삭제 기능
-
- <img src='https://user-images.githubusercontent.com/93258739/153691138-ae9da50d-ad2b-46bb-afdd-efe0debc3717.gif' alt="gif" />
-
->
-
-## 🚀 스택
-
-<br/>
-
-<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=black"> <img src="https://img.shields.io/badge/styled-compontents-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
-
-<br/><br/>
-
-## 💡 과제 후기
-
-### **우종원** 🍀
-
-이번 프로젝트에서 느낀 점은 크게 두 가지입니다.😊
-
-첫째, **개인의 효율성과 생산성**을 높인 것입니다. 기능 구현에서 막히는 부분은 서칭을 통해 학습, 새로운 기술의 적용은 효율성과 생산성을 높여 목표 완수에 필요한 시간을 크게 단축시켰습니다.
-
-둘째, **좋은 협업**이 무엇인지 느꼈습니다. 최신 이슈를 공유하는 등 소통을 기본으로 하여 효율적인 업무 분담에 성공했습니다. 또, 혼자서는 해결하기 힘들었던 기능 및 오류를 팀원끼리 합심해 해결해나갔던 경험을 통해 팀플레이, 그리고 좋은 협업이란 무엇인지를 느낄 수 있었습니다.
-
-### **박중섭** ✨
-
-이번 프로젝트를 전역상태를 Redux로 관리하는 방식에 대해 배울 수 있었습니다. 최상단에서 state를 props로 전달하는 기존의 방식에서 캄포넌트간의 연결이 많아질수록 상태 관리가 힘들어지는 문제점을 Redux에선 state를 store 한 곳에 모아서 관리하다보니 프로젝트가 커질수록 매우 효율적일 것이라는 느낌을 받았습니다.
-
-### **이태림** 🐯
-
-리덕스를 프로젝트에 도입해 이론이 아닌 실전 경험으로 직접 사용 방법을 더 빠르게 익힐 수 있었습니다. 사용해 보니 props drilling이 생길 경우에는 확실히 state를 props로 전달하는 방식보다 리덕스로 상태 관리를 하는 게 효율적이라는 걸 느꼈습니다. 리덕스 미들웨어, 툴킷 외에도 `MobX` `Recoil` 등 다른 상태 관리 라이브러리도 사용해 보고 싶습니다.
-
-### **임수영** 🐧
-
-이번 프로젝트에서 배운점은 크게 세 가지입니다.
-
-첫째는, 협업을 위한 팀 컨벤션 확립입니다. 그동안 과제를 진행하면서 팀원들과 서로 달랐던 코딩 스타일, 폴더 구조 스타일, 깃 커밋, 깃 브랜치 전략 등을 지속적으로 협의를 통해 하나의 컨벤션을 만들어 나갔는데, 특히 이번 과제에서 저희 팀만의 규칙들을 명확하게 확립하고 발전시킬 수 있었던 것 같습니다.
-
-두번째는, 리팩토링의 중요성이었습니다. 하나의 컴포넌트 스타일을 프로젝트 내에서 최대한 재사용할 수있도록 스타일드 컴포넌트를 리팩토링하고 상수화 시킴으로서 깔끔하고 통일된 코드 구조를 어떻게 만들 수있는지를 배울 수있었습니다.
-
-세번째는 리덕스의 활용법이었는데, 리덕스를 통한 상태관리를 프로젝트에 적용해볼 수 있어 좋았습니다. 다음에는 리덕스 툴킷또한 사용해보고싶습니다.
+ <img src='https://user-images.githubusercontent.com/87363422/180969214-76c2ae27-56eb-4334-9ac0-b5787ae9cac1.gif' alt="gif" />
